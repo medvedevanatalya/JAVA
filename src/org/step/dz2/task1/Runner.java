@@ -1,4 +1,4 @@
-package org.step.task1;
+package org.step.dz2.task1;
 
 
 public class Runner {

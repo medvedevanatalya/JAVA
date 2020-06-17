@@ -1,6 +1,6 @@
-package org.step.task4;
+package org.step.dz2.task4;
 
-import org.step.task3.Stationery;
+import org.step.dz2.task3.Stationery;
 
 import java.util.Comparator;
 

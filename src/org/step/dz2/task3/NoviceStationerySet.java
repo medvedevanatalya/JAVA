@@ -1,8 +1,8 @@
-package org.step.task3;
+package org.step.dz2.task3;
 
-import org.step.task4.StationeryCostSort;
-import org.step.task4.StationeryNameAndCostSort;
-import org.step.task4.StationeryNameSort;
+import org.step.dz2.task4.StationeryCostSort;
+import org.step.dz2.task4.StationeryNameAndCostSort;
+import org.step.dz2.task4.StationeryNameSort;
 
 import java.util.ArrayList;
 import java.util.List;

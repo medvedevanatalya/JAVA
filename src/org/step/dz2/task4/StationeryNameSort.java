@@ -1,10 +1,10 @@
-package org.step.task4;
+package org.step.dz2.task4;
 
-import org.step.task3.Stationery;
+import org.step.dz2.task3.Stationery;
 
 import java.util.Comparator;
 
-public class StationeryCostSort implements Comparator<Stationery> {
+public class StationeryNameSort implements Comparator<Stationery> {
 
     @Override
     public int compare(Stationery obj1, Stationery obj2) {
@@ -18,6 +18,6 @@ public class StationeryCostSort implements Comparator<Stationery> {
             return 1;
         }
 
-        return Double.compare(obj1.getCost(), obj2.getCost());
+        return obj1.getName().compareTo(obj2.getName());
     }
 }

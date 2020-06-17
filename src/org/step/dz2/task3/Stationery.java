@@ -1,4 +1,4 @@
-package org.step.task3;
+package org.step.dz2.task3;
 
 
 public abstract class Stationery {
