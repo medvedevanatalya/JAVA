@@ -22,8 +22,6 @@ public class Runner {
                ClassAnnotation annotation = field.getAnnotation(ClassAnnotation.class);
 
                String value = annotation.value();
-               String author = annotation.author();
-               String created = annotation.created();
 
                try {
                    field.set(nuclearBoat, value);
